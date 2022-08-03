@@ -1,0 +1,418 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  background-color: #2534d7;
+  
+}
+.logo{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  transform: translate(-390px);
+}
+nav{
+  display: flex;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  flex-direction: row;
+  height: 20%;
+  width: 90%;
+  margin-top: 20px;
+  transform: translate(1000px);
+  justify-content: space-between;
+ 
+}
+
+.nav-item-active{
+  background-color: rgb(255, 255, 255);
+  color: rgb(118, 39, 237);
+}
+
+.header-text{
+  display: flex;
+  flex-direction: column;
+  width: 160%;
+  height: 80%;
+  
+  transform: translate(-510px,200px);
+  
+
+}
+
+.header-text>h2{
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+}
+
+.header-text>p{
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+
+}
+
+.header-text>img{
+  
+  width: 8%;
+ 
+}
+.header-image{
+  display: flex;
+  width: 400%;
+  transform: translate(-560px, 100px);
+  
+}
+.companies{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  width: 50%;
+  justify-content: space-around;
+ 
+}
+.company-items{
+  font-family: "Righteous";
+  text-decoration: none;
+}
+
+.api{
+  margin-top: 50px;
+  margin-left: 30px;
+
+}
+.api-heading{
+
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 200px;
+
+}
+.card-active{
+  background-color: white;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 1px -1px 10px rgb(139, 133, 133);
+  padding: 10px;
+}
+
+.card-head-active{
+  color: #5A31FC;
+}
+
+.card{
+  background-color: transparent;
+  padding: 10px;
+
+}
+
+.card-head{
+
+}
+
+.card-body{
+
+}
+
+.blog-heading{
+  margin-left: 40px;
+
+}
+.blog-cards{
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+
+}
+
+.blog-card-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  transform: translate(100px);
+
+}
+.blog-image-1{
+  display: flex;
+  flex-direction: row;
+}
+
+.blog-content-1{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  padding: 10px 20px 10px 40px;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 2px rgb(160, 151, 151);
+  border-radius: 0px 10px 10px 0px;
+
+}
+.blog-content-1 h6{
+  display: flex;
+  font-family: "Poppins";
+
+}
+
+.blog-content-1 h3{
+  display: flex;
+  margin-top: -20px;
+  font-family: "Poppins";
+
+
+}
+
+.blog-content-1 small{
+  display: flex;
+  font-family: "Poppins";
+  color: rgb(0, 0, 0);
+
+
+}
+
+
+.blog-bottom-1{
+  display: flex;
+  height: 50px;
+  margin-top: 230px;
+  transform: translate(-240px, 40px);
+ 
+}
+
+.blog-card-bottom-image-1{
+  display: flex;
+  border: 2px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 5px rgb(152, 140, 140);
+}
+
+.blog-author-1{
+  display: flex;
+  font-family: "Righteous";
+  font-size: small;
+  height: 25px;
+  width: 110px;
+  margin-top: 260px;
+  transform: translate(-240px,10px);
+  justify-content: center;
+
+}
+.blog-card-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.blog-image-2{
+  display: flex;
+  
+
+}
+
+.blog-content-2{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  padding: 10px 20px 10px 30px;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 2px rgb(160, 151, 151);
+  border-radius: 0px 10px 10px 0px;
+
+}
+.blog-content-2 h6{
+  display: flex;
+  font-family: "Poppins";
+
+}
+
+.blog-content-2 h3{
+  display: flex;
+  margin-top: -30px;
+  font-family: "Poppins";
+
+
+}
+
+.blog-content-2 small{
+  display: flex;
+  font-family: "Poppins";
+
+
+}
+
+
+.blog-bottom-2{
+  display: flex;
+  height: 50px;
+  margin-top: 230px;
+  transform: translate(-240px, 40px);
+ 
+}
+
+.blog-card-bottom-image-2{
+  display: flex;
+  border: 2px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 5px rgb(171, 158, 158);
+}
+
+.blog-author-2{
+  display: flex;
+  font-family: "Righteous";
+  font-size: small;
+  height: 25px;
+  width: 110px;
+  margin-top: 260px;
+  transform: translate(-240px,10px);
+  justify-content: center;
+
+}
+
+
+.faq-section{
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(218, 234, 248);
+}
+
+.faq-content{
+  margin-left: 40px;
+
+}
+.faq-content h2{
+  font-size: 30px;
+  font-weight: 900;
+  font-family: "Poppins";
+}
+.faq-content h4{
+  font-size: 10px;
+}
+
+.faq-content button{
+  background: #5A31FC;
+  color: rgb(238, 238, 238);
+  border-radius: 0px;
+  transform: translate(-120px);
+}
+
+.download-section{
+  display: flex;
+  margin-top: 80px;
+  justify-content: space-between;
+
+}
+.download-content{
+  margin-left: 40px;
+}
+.download-content span{
+  font-weight: 200;
+  
+}
+
+.download-email{
+  display: flex;
+  flex-direction: row;
+  background-color:rgb(218, 234, 248);
+  border: none; 
+  border-radius: 25px;
+  height: 40px;
+  width: 440px;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 50px;
+}
+
+form input{
+  border-radius: 20px;
+  width: 160px;
+  padding: 10px 25px ;
+  font-size: 10px;
+  border: none;
+  color: black;
+  background-color: rgb(218, 234, 248);
+}
+
+button{
+  border: none;
+  margin-left: 120px;
+  border-radius: 20px;
+  padding: 10px 25px ;
+  font-size: 10px;
+  background: #5A31FC;
+  color: rgb(238, 238, 238);
+ 
+}
+
+
+.footer-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #2534d7;
+  margin-top: 50px;
+  height: 250px;
+
+}
+.footer-left{
+
+}
+.footer-logo{
+  margin: 60px 0px 0px 60px;
+
+}
+.list{
+  display: flex;
+  margin-top: 30px;
+
+}
+.list-items{
+  list-style-type: none;
+  font-size: 10px;
+  color: #ffffff;
+  font-weight: 100;
+
+}
+.footer-right1{
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  height: 100%;
+  margin-right: 50px;
+
+}
+.footer-right{
+  display: flex;
+  flex-direction: row ;
+  height: 40px;
+  justify-content: space-around;
+  align-self: center;
+  margin-top: 70px;
+  width: 140px;
+}
+
+.footer-logos{
+  display: flex;
+  flex-direction: row ;
+}
+
+.logos-list{
+  display: flex;
+  flex-direction: row ;
+ 
+}
+
+.list-items {
+  padding: 0px 10px 0px 10px;
+  
+}
